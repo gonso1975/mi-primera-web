@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Esta parte no se ve: son los "datos" de la página -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera web</title>
+  <!-- Aquí conectamos la hoja de estilos -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Cabecera de la página -->
+  <header>
+    <h1 id="saludo">¡Hola!</h1>
+    <p>Esta es mi primera página web, hecha paso a paso.</p>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <section class="tarjeta">
+      <h2>¿De qué va esto?</h2>
+      <p>
+        Este proyecto es un ejercicio para aprender el flujo completo:
+        crear una web, guardarla con git y subirla a GitHub.
+      </p>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Una pizca de interactividad</h2>
+      <p>Pulsa el botón y mira lo que pasa:</p>
+      <button id="boton-contador">Me has pulsado 0 veces</button>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>Hecho con curiosidad en 2026 · Fbavuela</p>
+  </footer>
+
+  <!-- Aquí conectamos el código JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>

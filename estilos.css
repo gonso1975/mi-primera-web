@@ -1,0 +1,64 @@
+/* ===== Estilos de mi primera web =====
+   El CSS decide CÓMO se ve cada cosa del HTML. */
+
+/* Estilos generales de toda la página */
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background: #f4f6fb;   /* gris azulado muy claro */
+  color: #24292f;        /* gris oscuro para el texto */
+  line-height: 1.6;
+}
+
+/* La cabecera, con un degradado de color */
+header {
+  background: linear-gradient(120deg, #3b6bd6, #7c3aed);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+}
+
+/* El contenido central, con un ancho máximo para leer cómodo */
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Cada sección es una "tarjeta" blanca con sombra suave */
+.tarjeta {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* El botón interactivo */
+button {
+  background: #3b6bd6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #2c53ab; /* un azul más oscuro al pasar el ratón */
+}
+
+/* El pie de página */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
